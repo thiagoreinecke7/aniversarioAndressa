@@ -1,0 +1,37 @@
+/* Garante que tudo fique adaptável para tela pequena */
+body {
+  background-color: #8a2d2d; /* bordô claro */
+  color: #f7e5aa; /* letras pretas */
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 15px;
+  text-align: center; /* centraliza tudo */
+  line-height: 1.6;
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5, h6 {
+  color: black;
+  font-weight: bold; /* negrito */
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Parágrafos */
+p {
+  margin: 10px auto;
+  max-width: 90%; /* para não ficar colado nas bordas */
+}
+
+/* Ajusta imagens para celular */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+/* Dá um espaço entre blocos */
+section {
+  margin-bottom: 20px;
+}
